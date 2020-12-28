@@ -172,6 +172,17 @@ class mainWindow {
 
         })
 
+        // TO-DO: Afegint una funcionalitat de cerca a l'aplicació
+        // Descomenteu el següent codi per fer l'exercici de recerca de registres.
+
+        /*document.querySelector("#filterRegisters").addEventListener("click", function () {
+            let criteri=document.querySelector("#criteriCerca").value;
+            console.log(criteri);
+            alert("Mètode a implementar! Criteri de cerca: "+criteri);
+
+        });*/
+
+
         /*
         // Exemple ping-pong
         let ret = window.api.sendSync("PingPong", { "missatge": "ping Sync", "async": false });
