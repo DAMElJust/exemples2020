@@ -48,6 +48,7 @@ class dbAccess{
             connection.end();
 
             // I finalment, invoquem la funció de callback amb els resultats
+            console.log(Pelis);
             callback(Pelis);
 
           });

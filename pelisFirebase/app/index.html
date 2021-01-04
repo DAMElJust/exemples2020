@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+  <script type="text/javascript" src="node_modules/bootstrap.native/dist/bootstrap-native.min.js"></script>
+
+  <!-- per a les icones -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <!--link href="css/bootstrap-material-design.css" rel="stylesheet"-->
+  <link href="css/custom.css" rel="stylesheet">
+
+  <title>Pelis</title>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-primary userbar">
+    <div>
+      <span class="username" id="username"></span>
+      <img class="imgRounded" id="imageProfile" src="" width="32" height="32">
+    </div>
+    <button class="btn btn-sm btn-outline-light" id="logoutBt">
+      <span class="iconify" data-icon="mdi-logout" data-inline="false"></span> logout</button>
+
+    <button class="btn btn-sm btn-outline-light" id="loginBt">
+      <span class="iconify" data-icon="mdi-login" data-inline="false"></span> login</button>
+  </nav>
+
+  <div class="container">
+    <h3 id="pelisHeader">Llistat de pel·lícules</h3>
+    <div class="loader">Loading...</div>
+    <div id="pelisCards"></div>
+  </div>
+
+  <!-- Definim la plantilla per a les targetes-->
+  <template class="pelis">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </template>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+  <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+  <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+
+  <!-- Carreguem els nostres scripts -->
+  <script defer src="./js/index.js"></script>
+
+
+</body>
+
+</html>
