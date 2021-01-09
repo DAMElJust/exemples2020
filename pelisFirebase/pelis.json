@@ -1,0 +1,70 @@
+{
+   "pelis":[
+      {
+         "idPelis":1,
+         "Titol":"La Amenaza Fantasma",
+         "Any":"1999",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":2,
+         "Titol":"El Ataque de los Clones",
+         "Any":"2002",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":3,
+         "Titol":"La Venganza de los Sith",
+         "Any":"2005",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":4,
+         "Titol":"Una Nueva Esperanza",
+         "Any":"1977",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":5,
+         "Titol":"El Imperio Contraataca",
+         "Any":"1980",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":6,
+         "Titol":"El Retorno del Jedi",
+         "Any":"1984",
+         "Director":"George Lucas"
+      },
+      {
+         "idPelis":7,
+         "Titol":"El Despertar de la Fuerza",
+         "Any":"2015",
+         "Director":"J.J. Abrams"
+      },
+      {
+         "idPelis":8,
+         "Titol":"Los Últimos Jedi",
+         "Any":"2017",
+         "Director":"Rian Johnson"
+      },
+      {
+         "idPelis":9,
+         "Titol":"Rogue One: A Star Wars Story",
+         "Any":"2016",
+         "Director":"Gareth Edwards"
+      },
+      {
+         "idPelis":10,
+         "Titol":"Solo: A Star Wars Story",
+         "Any":"2018",
+         "Director":"Ron Howard"
+      },
+      {
+         "idPelis":11,
+         "Titol":"El Ascenso de Skywalker",
+         "Any":"2019",
+         "Director":"J.J. Abrams"
+      }
+   ]
+}
