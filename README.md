@@ -24,3 +24,27 @@ document.querySelector("#filterRegisters").addEventListener("click", function ()
 
 Dins aquest mètode haureu de començar a implementar la funcionalitat de cerca, afegint els mètodes necessaris en aquest i altres fitxers de l'aplicació.
 
+## Proposta d'exercici per a PelisFirebase
+
+Aquest exercici proposat consisteix en afegir el logo de cada pel·lícula dins la targeta.
+
+Els passos a seguir seran:
+
+1. Modificar la base de dades de Firebase amb el fitxer pelis2.json que se us proporciona, i que inclou una nova clau *Logo* amb el logo de cada pel·lícula.
+2. Modificar la plantilla de la targeta, per a que agafe també el logo.
+3. Modificar la construcció de cada targeta per a que incloga el logo.
+
+Si teniu l'exemple funcionant, les modificacions del codi són literalment dos línies.
+
+Tal i com s'explica a la [documentació de Bootstrap](https://getbootstrap.com/docs/4.0/components/card/), el format comlet d'una targeta amb imatge serà:
+
+```
+<div class="card">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+```
+
+Pel que a efectes pràctcs, la principal modificació serà afegir la línia de la imatge i saber modificar aquesta des de javacript.
