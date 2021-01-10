@@ -48,3 +48,7 @@ Tal i com s'explica a la [documentació de Bootstrap](https://getbootstrap.com/d
 ```
 
 Pel que a efectes pràctcs, la principal modificació serà afegir la línia de la imatge i saber modificar aquesta des de javacript.
+
+### Segona part: Pelis Capacitor
+
+Amb les modificacions que heu fet, modifiqueu també el projecte de Capacitor i actualitzeu l'aplicació per a que mostre també els logos.
